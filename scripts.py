@@ -21,7 +21,7 @@ print "I made this list to help me pick my classes. Hope it helps! The list is c
 #sections = [diversity_1, diversity_2, diversity_3, diversity_4, core_ss, core_theo, core_fine_arts, core_ss_and_diversity, core_theo_and_diversity, core_fine_arts_and_diversity]
 
 def linkify_header(header):
-    return '>[' + header + ']' + '(#' + header.lower().replace(" ", "-") + ')'
+    return '- [' + header + ']' + '(#' + header.lower().replace(" ", "-") + ')'
 
 #print linkify_header(headers[0])
 
@@ -74,8 +74,6 @@ core_ss = [ course for course in course_tups if contains_attribute(course, 'Core
 
 # Core Theology
 core_theo = [ course for course in course_tups if contains_attribute(course, 'Core Theology')]
-
-upper_level_theo = [ course for course in core_theo if course[2] > '1000']
 
  # Core Fine Arts Req
 core_fine_arts = [ course for course in course_tups if contains_attribute(course, 'Fine Arts Requirement')]

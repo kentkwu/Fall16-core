@@ -1,16 +1,16 @@
 #Fall 16 Core Requirements
 I made this list to help me pick my classes. Hope it helps! The list is categorized by section, just click on the link to get to the right section
 1307
->[Diversity Requirement 1](#diversity-requirement-1)
->[Diversity Requirement 2](#diversity-requirement-2)
->[Diversity Requirement 3](#diversity-requirement-3)
->[Multiple Diversity Requirements](#multiple-diversity-requirements)
->[Core Social Science](#core-social-science)
->[Core Theology](#core-theology)
->[Fine Arts Requirement](#fine-arts-requirement)
->[Core Social Science + Diversity](#core-social-science-+-diversity)
->[Core Theology + Diversity](#core-theology-+-diversity)
->[Fine Arts + Diversity](#fine-arts-+-diversity)
+- [Diversity Requirement 1](#diversity-requirement-1)
+- [Diversity Requirement 2](#diversity-requirement-2)
+- [Diversity Requirement 3](#diversity-requirement-3)
+- [Multiple Diversity Requirements](#multiple-diversity-requirements)
+- [Core Social Science](#core-social-science)
+- [Core Theology](#core-theology)
+- [Fine Arts Requirement](#fine-arts-requirement)
+- [Core Social Science + Diversity](#core-social-science-+-diversity)
+- [Core Theology + Diversity](#core-theology-+-diversity)
+- [Fine Arts + Diversity](#fine-arts-+-diversity)
 ##Diversity Requirement 1
 | Course | Attributes |
 | ------ | ---------- |
