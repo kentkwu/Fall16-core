@@ -47,7 +47,7 @@ def pretty_print(header_section_tuple):
     print "| Course | Attributes |"
     print "| ------ | ---------- |"
     for course in course_tups:
-        print "| " + course[1] + "-" + course[2] + ": " + course[0] + " | " + ", \n".join(course[3]) + " |"
+        print "| " + course[1] + "-" + course[2] + ": " + course[0] + " | " + ", ".join(course[3]) + " |"
     print "\n\n"
 
 def pretty_print_all(sections):
