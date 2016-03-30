@@ -29,8 +29,6 @@ def print_heading_links(headers):
     for header in headers:
         print linkify_header(header)
 
-
-
 def create_course_tup(course):
     # (course.name, course.subject, course.subject_level, course.attributes)
     return (course.name, course.subject, course.subject_level, [attr.name for attr in course.attributes])
@@ -90,6 +88,7 @@ sections = [diversity_1, diversity_2, diversity_3, diversity_4, core_ss, core_th
 sections = zip(headers, sections)
 
 print_heading_links(headers)
+print " "
 pretty_print_all(sections)
 #pretty_print(("Upper Level Theology", core_theo))
 

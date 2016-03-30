@@ -11,6 +11,7 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 - [Core Social Science + Diversity](#core-social-science-+-diversity)
 - [Core Theology + Diversity](#core-theology-+-diversity)
 - [Fine Arts + Diversity](#fine-arts-+-diversity)
+ 
 ##Diversity Requirement 1
 | Course | Attributes |
 | ------ | ---------- |
