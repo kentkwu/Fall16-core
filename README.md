@@ -7,9 +7,11 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 - [Core Social Science](#core-social-science)
 - [Core Theology](#core-theology)
 - [Fine Arts Requirement](#fine-arts-requirement)
+- [Core History](#core-history)
 - [Core Social Science and Diversity](#core-social-science-and-diversity)
 - [Core Theology and Diversity](#core-theology-and-diversity)
 - [Fine Arts and Diversity](#fine-arts-and-diversity)
+- [Core History and Diversity](#core-history-and-diversity)
  
 ##Diversity Requirement 1
 | Course | Attributes |
@@ -251,6 +253,24 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 
 
 
+##Core History
+| Course | Attributes |
+| ------ | ---------- |
+| HIS-1060<br> TOP:Islam and the West | Core History |
+| HIS-1065<br> TOP:Disease in History | Core History |
+| HIS-1065<br> TOP:Nature & Human Society | Core History |
+| HIS-1075<br> TOP:Women and Everyday Life | Core History |
+| HIS-1150<br> TOP:Slavery in the Mod. World | Core History |
+| HIS-1150<br> TOP:Gender&Conquest; Atl World | Core History |
+| HIS-1150<br> TOP:18thC Europe & the World | Core History |
+| HIS-1155<br> TOP:GlobMigration in Hist 1500 | Core History |
+| HIS-1165<br> TOP:GlobalMkts:Eq. and Ineq. | Core History |
+| HIS-1165<br> TOP:History through Travel | Core History |
+| HIS-1165<br> TOP:Phila:The Global City | Core History |
+| HIS-1250<br> TOP:Near Eastern History | Core History |
+
+
+
 ##Core Social Science and Diversity
 | Course | Attributes |
 | ------ | ---------- |
@@ -298,6 +318,12 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 | COM-3342<br> International Cinema | Arab and Islamic Studies, <br>Cultural Studies, <br>Diversity Requirement 3, <br>Fine Arts Requirement |
 | RUS-3412<br> TOP:Russian Film | Cultural Studies, <br>Diversity Requirement 3, <br>Fine Arts Requirement, <br>Russian Area Studies Req, <br>Writing Enriched Requirement |
 | SAR-4007<br> Painting of Icons | Cultural Studies, <br>Diversity Requirement 3, <br>Fine Arts Requirement |
+
+
+
+##Core History and Diversity
+| Course | Attributes |
+| ------ | ---------- |
 
 
 

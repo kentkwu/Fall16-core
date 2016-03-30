@@ -7,7 +7,7 @@ from models import db, Course
 app = create_json_app(config.Config)
 app.app_context().push()
 
-headers = ["Diversity Requirement 1", "Diversity Requirement 2", "Diversity Requirement 3", "Multiple Diversity Requirements", "Core Social Science", "Core Theology", "Fine Arts Requirement", "Core Social Science and Diversity", "Core Theology and Diversity", "Fine Arts and Diversity"]
+headers = ["Diversity Requirement 1", "Diversity Requirement 2", "Diversity Requirement 3", "Multiple Diversity Requirements", "Core Social Science", "Core Theology", "Fine Arts Requirement", "Core History", "Core Social Science and Diversity", "Core Theology and Diversity", "Fine Arts and Diversity", "Core History and Diversity"]
 
 # Print heading for README.md
 print "#Fall 16 Core Requirements"
@@ -67,6 +67,9 @@ core_theo = [ course for course in course_tups if contains_attribute(course, 'Co
  # Core Fine Arts Req
 core_fine_arts = [ course for course in course_tups if contains_attribute(course, 'Fine Arts Requirement')]
 
+# Core History
+core_history = [ course for course in course_tups if contains_attribute(course, 'Core History')]
+
 # Core Social Science and diversity
 core_ss_and_diversity = [ course for course in course_tups if contains_attribute(course, 'Core Social Science') and num_diversity_reqs(course) > 0]
 
@@ -75,7 +78,9 @@ core_theo_and_diversity = [ course for course in course_tups if contains_attribu
 
 core_fine_arts_and_diversity = [ course for course in course_tups if contains_attribute(course, 'Fine Arts Requirement') and num_diversity_reqs(course) > 0]
 
-sections = [diversity_1, diversity_2, diversity_3, diversity_4, core_ss, core_theo, core_fine_arts, core_ss_and_diversity, core_theo_and_diversity, core_fine_arts_and_diversity]
+core_history_and_diversity = [ course for course in core_history if num_diversity_reqs(course) > 0]
+
+sections = [diversity_1, diversity_2, diversity_3, diversity_4, core_ss, core_theo, core_fine_arts, core_history, core_ss_and_diversity, core_theo_and_diversity, core_fine_arts_and_diversity, core_history_and_diversity]
 sections = zip(headers, sections)
 
 print_heading_links(headers)
