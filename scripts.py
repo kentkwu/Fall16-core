@@ -3,14 +3,9 @@ import sys
 sys.path.insert(0, os.path.abspath('../Oberon/oberon'))
 import config
 from core import create_json_app
-from mappings import departments
-from models import db, Department, Instructor, Attribute, Section, Restriction, Course, Student, Review, user_datastore, Trait
+from models import db, Course
 app = create_json_app(config.Config)
 app.app_context().push()
-from passlib.context import CryptContext
-pwd_context = CryptContext(schemes=["sha512_crypt"],
-default="sha512_crypt",
-sha512_crypt__default_rounds=45000)
 
 headers = ["Diversity Requirement 1", "Diversity Requirement 2", "Diversity Requirement 3", "Multiple Diversity Requirements", "Core Social Science", "Core Theology", "Fine Arts Requirement", "Core Social Science and Diversity", "Core Theology and Diversity", "Fine Arts and Diversity"]
 
@@ -18,12 +13,8 @@ headers = ["Diversity Requirement 1", "Diversity Requirement 2", "Diversity Requ
 print "#Fall 16 Core Requirements"
 print "I made this list to help me pick my classes. Hope it helps! The list is categorized by section, just click on the link to get to the right section"
 
-#sections = [diversity_1, diversity_2, diversity_3, diversity_4, core_ss, core_theo, core_fine_arts, core_ss_and_diversity, core_theo_and_diversity, core_fine_arts_and_diversity]
-
 def linkify_header(header):
     return '- [' + header + ']' + '(#' + header.lower().replace(" ", "-") + ')'
-
-#print linkify_header(headers[0])
 
 def print_heading_links(headers):
     for header in headers:
