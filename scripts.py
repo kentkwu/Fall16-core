@@ -21,7 +21,7 @@ print "I made this list to help me pick my classes. Hope it helps! The list is c
 #sections = [diversity_1, diversity_2, diversity_3, diversity_4, core_ss, core_theo, core_fine_arts, core_ss_and_diversity, core_theo_and_diversity, core_fine_arts_and_diversity]
 
 def linkify_header(header):
-    return '[' + header + ']' + '(#' + header.lower().replace(" ", "-") + ')'
+    return '>[' + header + ']' + '(#' + header.lower().replace(" ", "-") + ')'
 
 #print linkify_header(headers[0])
 
@@ -49,7 +49,7 @@ def pretty_print(header_section_tuple):
     print "| Course | Attributes |"
     print "| ------ | ---------- |"
     for course in course_tups:
-        print "| " + course[1] + "-" + course[2] + ": " + course[0] + " | " + ", ".join(course[3]) + " |"
+        print "| " + course[1] + "-" + course[2] + ": " + course[0] + " | " + ", \n".join(course[3]) + " |"
     print "\n\n"
 
 def pretty_print_all(sections):
