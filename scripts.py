@@ -12,7 +12,7 @@ pwd_context = CryptContext(schemes=["sha512_crypt"],
 default="sha512_crypt",
 sha512_crypt__default_rounds=45000)
 
-headers = ["Diversity Requirement 1", "Diversity Requirement 2", "Diversity Requirement 3", "Multiple Diversity Requirements", "Core Social Science", "Core Theology", "Fine Arts Requirement", "Core Social Science + Diversity", "Core Theology + Diversity", "Fine Arts + Diversity"]
+headers = ["Diversity Requirement 1", "Diversity Requirement 2", "Diversity Requirement 3", "Multiple Diversity Requirements", "Core Social Science", "Core Theology", "Fine Arts Requirement", "Core Social Science and Diversity", "Core Theology and Diversity", "Fine Arts and Diversity"]
 
 # Print heading for README.md
 print "#Fall 16 Core Requirements"

@@ -7,9 +7,9 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 - [Core Social Science](#core-social-science)
 - [Core Theology](#core-theology)
 - [Fine Arts Requirement](#fine-arts-requirement)
-- [Core Social Science + Diversity](#core-social-science-+-diversity)
-- [Core Theology + Diversity](#core-theology-+-diversity)
-- [Fine Arts + Diversity](#fine-arts-+-diversity)
+- [Core Social Science and Diversity](#core-social-science-and-diversity)
+- [Core Theology and Diversity](#core-theology-and-diversity)
+- [Fine Arts and Diversity](#fine-arts-and-diversity)
  
 ##Diversity Requirement 1
 | Course | Attributes |
@@ -251,7 +251,7 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 
 
 
-##Core Social Science + Diversity
+##Core Social Science and Diversity
 | Course | Attributes |
 | ------ | ---------- |
 | GIS-2000<br> Intro to Global Studies | Core Social Science, <br>Cultural Studies, <br>Diversity Requirement 3, <br>Writing Enriched Requirement, <br>Writing Intensive Requirement |
@@ -273,7 +273,7 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 
 
 
-##Core Theology + Diversity
+##Core Theology and Diversity
 | Course | Attributes |
 | ------ | ---------- |
 | PJ-4000<br> TOP:The Nature of Genocide | Core Theology, <br>Cultural Studies, <br>Diversity Requirement 3 |
@@ -289,7 +289,7 @@ I made this list to help me pick my classes. Hope it helps! The list is categori
 
 
 
-##Fine Arts + Diversity
+##Fine Arts and Diversity
 | Course | Attributes |
 | ------ | ---------- |
 | JPN-2143<br> Japanese Animation | Diversity Requirement 3, <br>East Asian Studies, <br>Fine Arts Requirement, <br>Non-Western International Req, <br>Writing Enriched Requirement |
