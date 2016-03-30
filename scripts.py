@@ -31,7 +31,7 @@ def print_heading_links(headers):
 
 def create_course_tup(course):
     # (course.name, course.subject, course.subject_level, course.attributes)
-    return (course.name, course.subject, course.subject_level, [attr.name for attr in course.attributes])
+    return (course.name, course.subject, course.subject_level, sorted([attr.name for attr in course.attributes]))
 
 def contains_attribute(course_tup, attribute):
     return True if attribute in course_tup[3] else False
@@ -47,7 +47,7 @@ def pretty_print(header_section_tuple):
     print "| Course | Attributes |"
     print "| ------ | ---------- |"
     for course in course_tups:
-        print "| " + course[1] + "-" + course[2] + ": " + course[0] + " | " + ", ".join(course[3]) + " |"
+        print "| " + course[1] + "-" + course[2] + "<br> " + course[0] + " | " + ", <br>".join(course[3]) + " |"
     print "\n\n"
 
 def pretty_print_all(sections):
@@ -56,10 +56,10 @@ def pretty_print_all(sections):
 
 # list of all courses
 all_courses = Course.query.all()
-course_tups = [create_course_tup(course) for course in all_courses]
-# (course.name, course.attributes, course.)
 
-print len(course_tups)
+#list of all course tuples
+course_tups = [create_course_tup(course) for course in all_courses]
+
 diversity_1 = [ course for course in course_tups if contains_attribute(course, 'Diversity Requirement 1')]
 diversity_2 = [ course for course in course_tups if contains_attribute(course, 'Diversity Requirement 2')]
 diversity_3 = [ course for course in course_tups if contains_attribute(course, 'Diversity Requirement 3')]
@@ -90,21 +90,3 @@ sections = zip(headers, sections)
 print_heading_links(headers)
 print " "
 pretty_print_all(sections)
-#pretty_print(("Upper Level Theology", core_theo))
-
-#pretty_print("Core Fine arts and diversity", core_fine_arts_and_diversity)
-#print len(diversity_1)
-#print len(diversity_2)
-#print len(diversity_3)
-#print len(diversity_4)
-#print len(core_ss_and_diversity)
-#print len(core_fine_arts_and_diversity)
-#print diversity_4
-#for course in core_fine_arts_and_diversity:
-    #print course[0]
-    #print course[3]
-    #print " "
-#fd fskj print core_and_diversity
-
-
-
